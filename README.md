@@ -11,21 +11,21 @@ If you have any question in this dataset, please contact Po. We will gather all 
 
 Variable list
 
-1.Lpermno: you know what it is
+1. Lpermno: you know what it is
 
-2.serial_no: unique serial number for each trademark 
+2. serial_no: unique serial number for each trademark 
 
-3.filing_dt: the filing date of a trademark
+3. filing_dt: the filing date of a trademark
 
-4.registration_dt: the registration date of a trademark
+4. registration_dt: the registration date of a trademark
 
-5.owner_start_date: the starting date of this mark belong to this public firm
+5. owner_start_date: the starting date of this mark belong to this public firm
 
-6.owner_end_date: the ending date of this mark belong to this public firm (for those of continued use as of 2024 end, we set the ending date to be 2999-12-31)
+6. owner_end_date: the ending date of this mark belong to this public firm (for those of continued use as of 2024 end, we set the ending date to be 2999-12-31)
 
-7.end_date the ending date of this mark (for those of continued use as of 2024 end, we set the ending date to be 2999-12-31)
+7. end_date the ending date of this mark (for those of continued use as of 2024 end, we set the ending date to be 2999-12-31)
 
-8.ma_buying: whether there is any M&A involved in this mark (the ownership has been tracked in the owner_start_date and owner_end_date)
+8. ma_buying: whether there is any M&A involved in this mark (the ownership has been tracked in the owner_start_date and owner_end_date)
 
 You can merge this dataset with USPTO trademark data via this link: https://data.uspto.gov/bulkdata (I recommend “Trademark Assignment Data for Academia and Researchers” and “Trademark Case File Data for Academia and Researchers”) 
 
